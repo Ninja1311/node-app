@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /home/work/node-app/node_modules/.bin
+mocha /home/work/node-app/test/test.js
