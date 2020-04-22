@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 app.get("/", function (req, res) {
- res.send("hello Jenkins");
+ res.send("hello Jenkins server");
 });
 app.listen(process.env.PORT || 3000);
  
